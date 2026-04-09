@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+nvd:
+  api:
+    key: YOUR_NVD_API_KEY
+    url: https://services.nvd.nist.gov/rest/json/cves/2.0
